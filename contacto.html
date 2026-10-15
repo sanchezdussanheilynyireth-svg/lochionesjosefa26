@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contacto | Brisa Piel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="inner">
+<header class="nav" id="nav">
+  <a class="logo" href="index.html">Brisa Piel</a>
+  <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+  <nav id="menu">
+    <a href="index.html">Inicio</a>
+    <a href="productos.html">Productos</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="contacto.html">Contacto</a>
+  </nav>
+</header>
+<section class="page-hero"><div class="layer bg" data-speed="0.2" style="background-image:url('https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1800&q=70')"></div><div class="shade"></div><div class="hero-text" data-speed="-0.08"><h1>Contacto</h1><p>Escríbenos para hacer tu pedido o resolver dudas.</p></div></section>
+<section class="section split">
+<form id="form" novalidate>
+<label>Nombre<input type="text" name="nombre" required></label>
+<label>Correo<input type="email" name="correo" required></label>
+<label>Loción que te interesa<input type="text" name="locion"></label>
+<label>Mensaje<textarea name="mensaje" rows="4" required></textarea></label>
+<button class="btn" type="submit">Enviar mensaje</button>
+<p id="msg" role="status"></p>
+</form>
+<ul class="stats">
+<li><strong>WhatsApp</strong> +57 300 000 0000</li>
+<li><strong>Correo</strong> hola@brisapiel.com</li>
+<li><strong>Horario</strong> Lunes a sábado, 8:00 a.m. a 6:00 p.m.</li>
+</ul></section>
+<footer>© 2026 Brisa Piel. Lociones para cuidar tu piel todos los días.</footer>
+<script src="main.js"></script>
+</body>
+</html>
